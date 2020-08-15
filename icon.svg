@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bar-grad" x1="0%" y1="70%" x2="100%" y2="20%">
+      <stop offset="0%" style="stop-color:rgb(240, 37, 127);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(96, 81, 157);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="92" stroke="black"/>
+  <circle cx="100" cy="94" r="42" stroke="gray" fill="transparent" stroke-width="5"/>
+  <path d="M 10 100 Q 100 0 190 100" stroke="gray" fill="transparent" stroke-width="5"/>
+  <path d="M 190 98 Q 100 190 10 98" stroke="gray" fill="transparent" stroke-width="5"/>
+  <line x1="167" y1="34" x2="34" y2="167" stroke="url(#bar-grad)" stroke-width="20"/>
+</svg>
+
